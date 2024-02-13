@@ -1,0 +1,104 @@
+.custom-cursor, .button {
+    cursor: url('./images/cursor.png'), auto;
+}
+
+.dancing-script-custom {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700; 
+    font-style: normal;
+}
+
+.raleway-custom {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    color: #AA1B2D;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-image: url('./images/cover.jpg');
+    background-size: cover;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30px;
+    padding: 20px;
+    text-align: center;
+    width: 350px;
+    background-color: #ead6d0b3;
+}
+
+.title {
+    font-size: 34px;
+    color: #AA1B2D;
+    padding: 5px;
+    font-family: "Dancing Script", cursive, sans-serif;
+}
+
+.heart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 15px auto;
+    background-repeat:  no-repeat;
+    background-size: contain;
+}
+
+.img-fluid {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+
+.button {
+    font-family: "Raleway", sans-serif;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    margin: 10px 8px;
+    border-radius: 5px;
+    width: 80px;
+    color: #EAD6D0;
+    background-color: #AA1B2D;
+}
+
+.button:hover {
+    color: #AA1B2D;
+    background: #EAD6D0;
+    font-weight: 700;
+    box-shadow: 5px 5px 5px #AA1B2D;
+}
+
+.button.button__error{
+    width: 100%;
+    display: none;
+}
+
+.text {
+    font-size: 20px;
+    margin: 30px 0;
+}
