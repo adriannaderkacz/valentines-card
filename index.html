@@ -1,36 +1,29 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>Valentine's Card</title>
 </head>
-<body>
-    <div id="card">
-        <h1>Valentines Day Card</h1>
-        <div class="heart" id="heart1">
-            <div class="half1">
-                <div class="circle"></div>
-                <div class="rec"></div>
+    <body>
+        <div class="card">
+            <h1 class="title">Will you be my Valentine?</h1>
+            <div class="heart">
+                <img src="./assets/images/1.gif" alt="Valentine" class="cat img-fluid">
             </div>
-            <div class="half2">
-                <div class="circle"></div>
-                <div class="rec"></div>
-            </div>
-        </div>
-        <div id="message">
-            <h2>Happy Valentines Day</h2>
-        </div>
-        <div class="heart" id="heart2">
-            <div class="half1">
-                <div class="circle"></div>
-                <div class="rec"></div>
-            </div>
-            <div class="half2">
-                <div class="circle"></div>
-                <div class="rec"></div>
+            <div class="text"></div>
+            <div class="btn-container">
+                <button class="button">YES</button>
+                <button class="button button__negative">NO</button>
+                <button class="button button__error">Error, we need to restart</button>
             </div>
         </div>
-    </div>
+    <script src="./assets/script.js"></script>
 </body>
 </html>
